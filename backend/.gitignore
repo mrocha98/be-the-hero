@@ -1,0 +1,11 @@
+# IDE files
+.vscode/
+.idea/
+
+# Node
+node_modules/
+
+# Database
+src/database/*
+!src/database/migrations/
+!src/database/connection.js
