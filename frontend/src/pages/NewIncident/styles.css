@@ -1,0 +1,46 @@
+.new-incident-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1120px;
+  width: 100%;
+}
+
+.new-incident-container .content {
+  align-items: center;
+  background: #f0f0f5;
+  border-radius: 8px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 96px;
+  width: 100%;
+}
+
+.new-incident-container .content section {
+  width: 100%;
+  max-width: 380px;
+}
+
+.new-incident-container .content section h1 {
+  font-size: 32px;
+  margin: 64px 0 32px;
+}
+
+.new-incident-container .content section p {
+  color: #737380;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.new-incident-container .content form {
+  max-width: 450px;
+  width: 100%;
+}
+
+.new-incident-container .content form input,
+.new-incident-container .content form textarea {
+  margin-top: 8px;
+}
