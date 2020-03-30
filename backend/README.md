@@ -26,12 +26,14 @@ npm dev # run project in developer mode (using nodemon)
 
 ## Diferences from original project
 
-- Separation of app and server files
 - Class syntax in app
 - Enviroments variables
 - Unique contraint for Ong's name in database
+- Validators in a sepated folder
+- Additional validations, like hex in id, for example
 - Adition of HTTP-Status-Code library to make code more expresive
 - Adition of Morgan library to log all requests in server
 - Eslint, Prettier and EditorConfig
+- All jest recommended rules in Eslint
 - CommitLint, Commitzen and Husky to automate commits
 - WTFPL as license, instead of MIT
