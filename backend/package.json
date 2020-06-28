@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/mrocha98/be-the-hero.git",
-  "license": "WTFPL",
+  "license": "MIT",
   "scripts": {
     "start": "node ./src/server.js",
     "dev": "cross-env NODE_ENV=dev nodemon ./src/server.js --ignore __tests__",
