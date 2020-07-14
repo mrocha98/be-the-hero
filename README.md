@@ -1,4 +1,4 @@
-# Be The Hero - Backend
+# Be The Hero
 
 ![Logo](.github/logo.svg)
 
